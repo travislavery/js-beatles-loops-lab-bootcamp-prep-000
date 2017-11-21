@@ -23,6 +23,6 @@ function iLoveTheBeatles(number) {
   do {
     empty.push('I love the Beatles!')
     number -= 1
-  } while (number > 0)
+  } while (number >= 0)
   return empty
 }
