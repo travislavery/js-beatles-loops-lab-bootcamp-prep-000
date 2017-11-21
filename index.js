@@ -20,7 +20,7 @@ function johnLennonFacts(factsArray) {
 
 function iLoveTheBeatles(number) {
   var empty = []
-  var parameter = 15
+  var parameter = number
   do {
     empty.push('I love the Beatles!')
     parameter -= 1
