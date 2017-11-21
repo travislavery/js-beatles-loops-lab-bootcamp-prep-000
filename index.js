@@ -12,7 +12,7 @@ function johnLennonFacts(factsArray) {
   var empty = []
   while(arrayLength >= 0) {
     var nextString = factsArray[arrayLength] + "!!!"
-    empty.push(nextString)
+    empty.unshift(nextString)
     arrayLength -= 1
   }
   return empty
