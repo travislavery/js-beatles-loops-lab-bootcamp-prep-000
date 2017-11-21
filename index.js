@@ -4,8 +4,14 @@ function theBeatlesPlay(musicians, instruments) {
     var nextString = `${musicians[i]} plays ${instruments[i]}`
     empty.push(nextString)
   }
+  return empty
 }
 
 function johnLennonFacts(factsArray) {
-  while()
+  var arrayLength = factsArray.length-1
+  var empty = []
+  while(arrayLength >= 0) {
+    var nextString = factsArray[arrayLength] + "!!!"
+    arrayLength -= 1
+  }
 }
