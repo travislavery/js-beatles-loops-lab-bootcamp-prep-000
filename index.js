@@ -24,6 +24,6 @@ function iLoveTheBeatles(number) {
   do {
     empty.push('I love the Beatles!')
     numberCheck -= 1
-  } while (numberCheck >= 0)
+  } while (numberCheck > 0)
   return empty
 }
