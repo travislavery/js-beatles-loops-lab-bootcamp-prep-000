@@ -20,10 +20,9 @@ function johnLennonFacts(factsArray) {
 
 function iLoveTheBeatles(number) {
   var empty = []
-  var numberCheck = number-1
   do {
     empty.push('I love the Beatles!')
-    numberCheck -= 1
-  } while (numberCheck > 0)
+    number -= 1
+  } while (number > 0)
   return empty
 }
